@@ -15,5 +15,6 @@ $(function(){
 	}else{
 		$('.title_pc').hide();
 		$('.title_wap').show();
+		$('.main').css('backgroundImage','url(./img/bg_wap.png)');
 	}
 });
