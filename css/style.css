@@ -1,46 +1,48 @@
 .main{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.section{
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background-color: #ccc;
+}
+.section1{
 	background-image: url(../img/bg.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	display: flex;
-	flex-direction: column;
+	/*border: 1px solid green;*/
 }
-.main .wrapper{
-	flex: 1;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-.main .wrapper .content{
+.section1_cnt{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
 	text-align: center;
 }
-.main .wrapper .content .logo{
+.logo{
 	display: block;
 	width: 90px;
 	height: 90px;
-	margin: 40px auto 0;
+	margin: 0 auto;
 }
-.main .wrapper .content .title h2{
+.section1_title{
 	line-height: 1.2;
 	font-size: 6rem;
 	color: #fff;
-	margin-top: 30px;
+	margin-top: 3rem;
 	font-weight: 600;
 }
-.main .wrapper .content .title p{
+.section1_description{
 	line-height: 1.6;
-	font-size: 1.8rem;
+	margin-top: 2.4rem;
 	color: #fff;
-	margin-top: 24px;
+	font-size: 1.8rem;
 	font-weight: 300;
 }
-.main .wrapper .content .dowload button{
+.section1_download button{
 	width: 220px;
 	height: 38px;
 	line-height: 39px;
@@ -48,38 +50,25 @@
 	font-size: 1.6rem;
 	background-color: #e9191a;
 	border: none;
-	border-radius: 30px;
-	margin-top: 7%;
+	border-radius: 19px;
 	outline: none;
 	font-weight: 300;
+	margin-top: 7%;
 }
-.main .wrapper .content .dowload p{
+.section1_download p{
 	line-height: 3;
 	color: #fff;
 	font-size: 1.2rem;
 	font-weight: 300;
 }
-/*footer*/
-.main .footer{
-	height: 70px;
-	background-color: #000;
-}
-.main .footer p{
-	height: 70px;
-	line-height: 20px;
-	padding-top: 15px;
-	color: #666;
-	font-size: 1.4rem;
-}
-/*弹框*/
-.popupBox{
+.popup_box{
 	position: fixed;
 	left: 0;
 	top: 0;
 	right: 0;
 	bottom: 0;
 }
-.popupBox .popupLayer{
+.popup_layer{
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -87,8 +76,9 @@
 	bottom: 0;
 	background-color: #000;
 	opacity: .7;
+	z-index: 1;
 }
-.popupBox .popup{
+.popup{
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -102,15 +92,11 @@
 	border-radius: 10px;
 	z-index: 2;
 }
-.popupBox .popup img{
-	width: 100px;
-	height: 100px;
-}
-.popupBox .popup p{
+.popup p{
 	line-height: 30px;
 	font-size: 2rem;
 }
-.popupBox .popup button{
+.popup button{
 	width: 220px;
 	height: 38px;
 	line-height: 39px;
@@ -122,4 +108,27 @@
 	border-radius: 50px;
 	outline: none;
 	font-weight: 300;
+}
+
+.section2{
+	/*border: 1px solid blue;*/
+}
+.section3{
+	/*border: 1px solid orange;*/
+}
+.section4{
+	/*border: 1px solid red;*/
+}
+/*footer*/
+.footer{
+	width: 100%;
+	height: 70px;
+	background-color: #000;
+}
+.footer p{
+	height: 100%;
+	line-height: 20px;
+	padding-top: 15px;
+	color: #999;
+	font-size: 1.4rem;
 }
