@@ -17,5 +17,7 @@ $(function(){
 	//针对首屏的logo居中
 	$('.section1_cnt').css('marginTop', -$('.section1_cnt').innerHeight()/2);
 	//适配简易版的全屏
-	$('.whole_screen').css('height',window.innerHeight - $('.footer').innerHeight());
+	if (window.innerHeight > 568){
+		$('.whole_screen').css('height',window.innerHeight - $('.footer').innerHeight());
+	}
 });
