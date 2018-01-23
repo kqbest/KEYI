@@ -20,4 +20,22 @@ $(function(){
 	if (window.innerHeight > 568){
 		$('.whole_screen').css('height',window.innerHeight - $('.footer').innerHeight());
 	}
+	//根据鼠标滚动距离执行动画
+	var innerHeight = window.innerHeight;
+	$('.main').scroll(function(){
+		var top = $(this).scrollTop();
+		if(top >= innerHeight/3){
+			$('.anchor1').addClass('animation1');
+			$('.anchor2').addClass('animation2');
+			$('.anchor3').addClass('animation3');
+		}
+		if(top >= innerHeight+innerHeight/3){
+			$('.anchor4').addClass('animation1');
+			$('.anchor5').addClass('animation2');
+			$('.anchor6').addClass('animation3');
+		}
+		if(top >= innerHeight*2+innerHeight/3){
+			$('.anchor7').addClass('animation1');
+		}
+	});
 });

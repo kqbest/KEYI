@@ -14,7 +14,6 @@
 	background-image: url(../img/bg.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	/*border: 1px solid green;*/
 }
 .section1_cnt{
 	position: absolute;
@@ -110,15 +109,54 @@
 	outline: none;
 	font-weight: 300;
 }
-
 .section2{
-	/*border: 1px solid blue;*/
+	
+}
+.section2_title{
+	line-height: 1.2;
+	font-size: 6rem;
+	color: #111;
+	padding: 3rem 3rem 0;
+	font-weight: 600;
+}
+.section2_description{
+	line-height: 1.6;
+	margin-top: 2.4rem;
+	padding: 0 3rem;
+	color: #111;
+	font-size: 1.8rem;
+}
+.section2_img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.section2_img img{
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 .section3{
-	/*border: 1px solid orange;*/
+	
 }
 .section4{
-	/*border: 1px solid red;*/
+	height: 510px;
+	min-height: 510px;
+}
+.section4_title{
+	line-height: 510px;
+	color: #fff;
+	font-size: 6rem;
+	font-weight: 600;
+	text-align: center;
+}
+.opacity_0{
+	opacity: 0;
 }
 /*footer*/
 .footer{
@@ -132,4 +170,41 @@
 	padding-top: 15px;
 	color: #999;
 	font-size: 1.4rem;
+}
+/*动画1*/
+.animation1{
+	animation: copyInfo 1.7s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+}
+/*动画2*/
+.animation2{
+	animation: copyInfo 1.7s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+}
+/*动画3*/
+.animation3{
+	animation: copyInfo 1.7s 1.2s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+}
+/*动画步骤*/
+@-webkit-keyframes copyInfo {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(45px) translateZ(0);
+    transform: translateY(45px) translateZ(0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0) translateZ(0);
+    transform: translateY(0) translateZ(0);
+  }
+}
+@keyframes copyInfo {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(45px) translateZ(0);
+    transform: translateY(45px) translateZ(0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0) translateZ(0);
+    transform: translateY(0) translateZ(0);
+  }
 }
