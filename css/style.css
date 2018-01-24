@@ -202,6 +202,10 @@
 .animation3{
 	animation: copyInfo 1.7s 1.2s cubic-bezier(0.165, 0.84, 0.44, 1) both;
 }
+/*动画3*/
+.animation4{
+	animation: copyInfo 1.7s 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+}
 /*动画步骤*/
 @-webkit-keyframes copyInfo {
   from {
