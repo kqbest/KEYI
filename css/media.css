@@ -28,6 +28,27 @@
 		width: 300px;
 		margin-left: -150px;
 	}
+	.anchor2{
+		font-size: 2.4rem;
+		margin-left: 0;
+		padding-top: 2rem;
+	}
+	.anchor3{
+		font-size: 1.6rem;
+		margin-left: 0;
+	}
+	.anchor5{
+		font-size: 2.4rem;
+		margin-left: 0;
+		padding-top: 5rem;
+	}
+	.anchor6{
+		font-size: 1.6rem;
+		margin-left: 0;
+	}
+	.anchor7{
+		font-size: 2.4rem;
+	}
 }
 @media screen and (min-width: 320px) and (max-width: 375px){
     .logo{
@@ -57,6 +78,27 @@
 	.popup{
 		width: 310px;
 		margin-left: -155px;
+	}
+	.anchor2{
+		font-size: 2.4rem;
+		margin-left: 0;
+		padding-top: 5rem;
+	}
+	.anchor3{
+		font-size: 1.6rem;
+		margin-left: 0;
+	}
+	.anchor5{
+		font-size: 2.4rem;
+		margin-left: 0;
+		padding-top: 6rem;
+	}
+	.anchor6{
+		font-size: 1.6rem;
+		margin-left: 0;
+	}
+	.anchor7{
+		font-size: 2.4rem;
 	}
 }
 @media screen and (min-width: 376px) and (max-width: 425px){
@@ -88,6 +130,27 @@
 		width: 340px;
 		margin-left: -170px;
 	}
+	.anchor2{
+		font-size: 2.8rem;
+		margin-left: 0;
+		padding-top: 6rem;
+	}
+	.anchor3{
+		font-size: 2rem;
+		margin-left: 0;
+	}
+	.anchor5{
+		font-size: 2.8rem;
+		margin-left: 0;
+		padding-top: 8rem;
+	}
+	.anchor6{
+		font-size: 2rem;
+		margin-left: 0;
+	}
+	.anchor7{
+		font-size: 2.8rem;
+	}
 }
 @media screen and (min-width: 426px) and (max-width: 768px){
     .logo{
@@ -114,6 +177,27 @@
 		padding-top: 10px;
 		font-size: 1.2rem;
 	}
+	.anchor2{
+		font-size: 4rem;
+		margin-left: 0;
+		padding-top: 8rem;
+	}
+	.anchor3{
+		font-size: 2rem;
+		margin-left: 0;
+	}
+	.anchor5{
+		font-size: 4rem;
+		margin-left: 0;
+		padding-top: 8rem;
+	}
+	.anchor6{
+		font-size: 2rem;
+		margin-left: 0;
+	}
+	.anchor7{
+		font-size: 4rem;
+	}
 }
 @media screen and (min-width: 769px) and (max-width: 1024px){
     .logo{
@@ -137,5 +221,26 @@
 		line-height: 15px;
 		padding-top: 10px;
 		font-size: 1.2rem;
+	}
+	.anchor2{
+		font-size: 4.8rem;
+		margin-left: 5%;
+		padding-top: 5rem;
+	}
+	.anchor3{
+		font-size: 2rem;
+		margin-left: 5%;
+	}
+	.anchor5{
+		font-size: 4.8rem;
+		margin-left: 30%;
+		padding-top: 6rem;
+	}
+	.anchor6{
+		font-size: 2rem;
+		margin-left: 30%;
+	}
+	.anchor7{
+		font-size: 4.8rem;
 	}
 }
