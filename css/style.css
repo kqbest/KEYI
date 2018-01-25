@@ -21,7 +21,6 @@
 	right: 0;
 	top: 50%;
 	text-align: center;
-	/*margin-top: -300px!important;*/
 }
 .logo{
 	display: block;
@@ -34,7 +33,7 @@
 	font-size: 5.4rem;
 	color: #fff;
 	margin-top: 3rem;
-	font-weight: 600;
+	font-weight: 800;
 }
 .section1_description{
 	line-height: 1.6;
@@ -118,7 +117,7 @@
 	font-size: 5.4rem;
 	color: #111;
 	padding: 3rem 3rem 0;
-	font-weight: bold;
+	font-weight: 800;
 }
 .section2_description{
 	line-height: 1.6;
