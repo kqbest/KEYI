@@ -1,30 +1,7 @@
-/*@font-face {
-	font-family:'HanHei SC';
+@font-face {
+	font-family:'SF Pro SC';
 	font-style:normal;
 	font-weight:300;
-	src:url("../font/HanHei-SC/HanHei-SC-thin.woff") format("woff"),
-		url("../font/HanHei-SC/HanHei-SC-thin.ttf") format("truetype");
-}*/
-/*@font-face {
-	font-family:'HanHei SC 300';
-	src:url("../font/HanHei-SC/HanHei-SC-thin.eot");
+	src:url("font/SF-Pro-SC/PingFangSC-Thin.woff2") format("woff2"),
+		url("font/SF-Pro-SC/PingFangSC-Thin.ttf") format("truetype");
 }
-@font-face {
-	font-family:'HanHei SC';
-	font-style:normal;
-	font-weight:600;
-	src:url("../font/HanHei-SC/HanHei-SC-semibold.woff") format("woff"),
-		url("../font/HanHei-SC/HanHei-SC-semibold.ttf") format("truetype");
-}
-@font-face {
-	font-family:'HanHei SC 600';
-	src:url("../font/HanHei-SC/HanHei-SC-semibold.eot");
-}
-@font-face {
-	font-family:'HanHei SC';
-	font-style:normal;
-	font-weight:400;
-	src:url("../font/HanHei-SC/HanHei-SC-text.eot");
-	src:url("../font/HanHei-SC/HanHei-SC-text.woff") format("woff"),
-		url("../font/HanHei-SC/HanHei-SC-text.ttf") format("truetype");
-}*/
