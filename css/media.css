@@ -103,7 +103,7 @@
 		font-size: 2.4rem;
 	}
 	.section4_title{padding-top: 60%;}
-	.section1_cnt{top: 60%;}
+	
 }
 @media screen and (min-width: 376px) and (max-width: 425px){
     .logo{
@@ -140,7 +140,7 @@
 		padding-top: 6rem;
 	}
 	.anchor3{
-		font-size: 2rem;
+		font-size: 1.9rem;
 		margin-left: 0;
 	}
 	.anchor5{
@@ -149,11 +149,13 @@
 		padding-top: 8rem;
 	}
 	.anchor6{
-		font-size: 2rem;
+		font-size: 1.9rem;
 		margin-left: 0;
 	}
 	.anchor7{
-		font-size: 2.8rem;
+		font-size: 3rem;
+		line-height: 150%;
+		
 	}
 	.section4_title{padding-top: 60%;}
 }
@@ -252,5 +254,5 @@
 
 @media screen and (min-width: 1024px) {
 	.anchor6{width: 700px;}
-	.anchor3{width: 700px;}
+	.anchor3{width: 650px;}
 }
