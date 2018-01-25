@@ -1,8 +1,13 @@
+
+@font-face{
+    font-family: 'PingFang Medium_0';
+    src : url('../fonts/PingFang Medium_0.ttf');
+}
 * {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    /*font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;*/
+    /*font-family: "微软雅黑","SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;*/
     font-family: "HanHei SC","PingHei","PingFang SC","STHeitiSC-Light","Helvetica Neue","Helvetica","Arial",sans-serif;
     user-select: none;
 }
