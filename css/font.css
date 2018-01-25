@@ -1,11 +1,11 @@
-@font-face {
+/*@font-face {
 	font-family:'HanHei SC';
 	font-style:normal;
 	font-weight:300;
 	src:url("../font/HanHei-SC/HanHei-SC-thin.woff") format("woff"),
 		url("../font/HanHei-SC/HanHei-SC-thin.ttf") format("truetype");
-}
-@font-face {
+}*/
+/*@font-face {
 	font-family:'HanHei SC 300';
 	src:url("../font/HanHei-SC/HanHei-SC-thin.eot");
 }
@@ -24,7 +24,7 @@
 	font-family:'HanHei SC';
 	font-style:normal;
 	font-weight:400;
-	src:url("../fonts/HanHei-SC/HanHei-SC-text.eot");
-	src:url("../fonts/HanHei-SC/HanHei-SC-text.woff") format("woff"),
-		url("../fonts/HanHei-SC/HanHei-SC-text.ttf") format("truetype");
-}
+	src:url("../font/HanHei-SC/HanHei-SC-text.eot");
+	src:url("../font/HanHei-SC/HanHei-SC-text.woff") format("woff"),
+		url("../font/HanHei-SC/HanHei-SC-text.ttf") format("truetype");
+}*/

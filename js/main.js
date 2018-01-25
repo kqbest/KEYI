@@ -12,10 +12,9 @@ $(function(){
 		$('.title_pc').show();
 	}else{
 		$('.title_wap').show();
-		$('.section1').css('backgroundImage','url(./img/bg_wap.png)');
-		$('.anchor1').css({backgroundImage:'url(./img/bg_wap1.png)',with:'100%'});
-		$('.anchor4').css({backgroundImage:'url(./img/bg_wap2.png)',with:'100%'});
-		$('.anchor8').css({backgroundImage:'url(./img/bg5.png)',with:'100%'});
+		$('.section1').css('backgroundImage','url(./img/bg_wap.jpg)');
+		$('.anchor1').css({backgroundImage:'url(./img/bg_wap1.jpg)',with:'100%'});
+		$('.anchor4').css({backgroundImage:'url(./img/bg_wap2.jpg)',with:'100%'});
 	}
 	//针对首屏的logo居中
 	$('.section1_cnt').css('marginTop', -$('.section1_cnt').innerHeight()/2);

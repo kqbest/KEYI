@@ -21,7 +21,6 @@
 	}
 	.footer p{
 		line-height: 15px;
-		/*padding-top: 5px;*/
 		font-size: 1.2rem;
 	}
 	.popup{
@@ -48,9 +47,8 @@
 	}
 	.anchor7{
 		font-size: 2.4rem;
+		margin-top: -56px;		
 	}
-	.section4_title{padding-top: 60%;}
-	
 }
 @media screen and (min-width: 320px) and (max-width: 375px){
     .logo{
@@ -74,7 +72,6 @@
 	}
 	.footer p{
 		line-height: 15px;
-		/*padding-top: 5px;*/
 		font-size: 1.2rem;
 	}
 	.popup{
@@ -101,9 +98,8 @@
 	}
 	.anchor7{
 		font-size: 2.4rem;
+		margin-top: -56px;
 	}
-	.section4_title{padding-top: 60%;}
-	
 }
 @media screen and (min-width: 376px) and (max-width: 425px){
     .logo{
@@ -111,11 +107,11 @@
 		height: 70px;
 	}
 	.section1_title{
-		font-size: 2.8rem;
+		font-size: 3.2rem;
 		margin-top: 10%;
 	}
 	.section1_description{
-		font-size: 2rem;
+		font-size: 1.9rem;
 		margin-top: 2rem;
 	}
 	.section1_download button{
@@ -127,7 +123,6 @@
 	}
 	.footer p{
 		line-height: 15px;
-		/*padding-top: 10px;*/
 		font-size: 1.2rem;
 	}
 	.popup{
@@ -135,7 +130,7 @@
 		margin-left: -170px;
 	}
 	.anchor2{
-		font-size: 2.8rem;
+		font-size: 3.2rem;
 		margin-left: 0;
 		padding-top: 6rem;
 	}
@@ -144,7 +139,7 @@
 		margin-left: 0;
 	}
 	.anchor5{
-		font-size: 2.8rem;
+		font-size: 3.2rem;
 		margin-left: 0;
 		padding-top: 8rem;
 	}
@@ -153,11 +148,9 @@
 		margin-left: 0;
 	}
 	.anchor7{
-		font-size: 3rem;
-		line-height: 150%;
-		
+		font-size: 3.2rem;
+		margin-top: -56px;
 	}
-	.section4_title{padding-top: 60%;}
 }
 @media screen and (min-width: 426px) and (max-width: 768px){
     .logo{
@@ -181,7 +174,6 @@
 	}
 	.footer p{
 		line-height: 15px;
-		/*padding-top: 10px;*/
 		font-size: 1.2rem;
 	}
 	.anchor2{
@@ -204,6 +196,7 @@
 	}
 	.anchor7{
 		font-size: 4rem;
+		margin-top: -56px;
 	}
 }
 @media screen and (min-width: 769px) and (max-width: 1024px){
@@ -226,7 +219,6 @@
 	}
 	.footer p{
 		line-height: 15px;
-		/*padding-top: 10px;*/
 		font-size: 1.2rem;
 	}
 	.anchor2{
@@ -251,8 +243,23 @@
 		font-size: 4.8rem;
 	}
 }
-
+@media screen and (max-width: 1024px) {
+	.anchor1{
+		background-image: url(../img/bg4_1.jpg);
+		background-position:60% 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+	.anchor4{
+		background: url(../img/bg2_1.jpg);
+		background-position:30% 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+}
 @media screen and (min-width: 1024px) {
 	.anchor6{width: 700px;}
-	.anchor3{width: 650px;}
+	.anchor3{width: 700px;}
 }
