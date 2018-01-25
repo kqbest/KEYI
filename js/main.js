@@ -15,6 +15,7 @@ $(function(){
 		$('.section1').css('backgroundImage','url(./img/bg_wap.png)');
 		$('.anchor1').css({backgroundImage:'url(./img/bg_wap1.png)',with:'100%'});
 		$('.anchor4').css({backgroundImage:'url(./img/bg_wap2.png)',with:'100%'});
+		$('.anchor8').css({backgroundImage:'url(./img/bg5.png)',with:'100%'});
 	}
 	//针对首屏的logo居中
 	$('.section1_cnt').css('marginTop', -$('.section1_cnt').innerHeight()/2);

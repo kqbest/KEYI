@@ -21,7 +21,7 @@
 	}
 	.footer p{
 		line-height: 15px;
-		padding-top: 5px;
+		/*padding-top: 5px;*/
 		font-size: 1.2rem;
 	}
 	.popup{
@@ -49,6 +49,8 @@
 	.anchor7{
 		font-size: 2.4rem;
 	}
+	.section4_title{padding-top: 60%;}
+	
 }
 @media screen and (min-width: 320px) and (max-width: 375px){
     .logo{
@@ -72,7 +74,7 @@
 	}
 	.footer p{
 		line-height: 15px;
-		padding-top: 5px;
+		/*padding-top: 5px;*/
 		font-size: 1.2rem;
 	}
 	.popup{
@@ -100,6 +102,8 @@
 	.anchor7{
 		font-size: 2.4rem;
 	}
+	.section4_title{padding-top: 60%;}
+	.section1_cnt{top: 60%;}
 }
 @media screen and (min-width: 376px) and (max-width: 425px){
     .logo{
@@ -123,7 +127,7 @@
 	}
 	.footer p{
 		line-height: 15px;
-		padding-top: 10px;
+		/*padding-top: 10px;*/
 		font-size: 1.2rem;
 	}
 	.popup{
@@ -151,6 +155,7 @@
 	.anchor7{
 		font-size: 2.8rem;
 	}
+	.section4_title{padding-top: 60%;}
 }
 @media screen and (min-width: 426px) and (max-width: 768px){
     .logo{
@@ -174,7 +179,7 @@
 	}
 	.footer p{
 		line-height: 15px;
-		padding-top: 10px;
+		/*padding-top: 10px;*/
 		font-size: 1.2rem;
 	}
 	.anchor2{
@@ -219,7 +224,7 @@
 	}
 	.footer p{
 		line-height: 15px;
-		padding-top: 10px;
+		/*padding-top: 10px;*/
 		font-size: 1.2rem;
 	}
 	.anchor2{
@@ -243,4 +248,9 @@
 	.anchor7{
 		font-size: 4.8rem;
 	}
+}
+
+@media screen and (min-width: 1024px) {
+	.anchor6{width: 700px;}
+	.anchor3{width: 700px;}
 }

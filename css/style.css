@@ -167,7 +167,6 @@
 }
 .anchor3{
 	margin-left: 15%;
-	width:700px;
 }
 .anchor5{
 	margin-left: 40%;
@@ -175,10 +174,10 @@
 }
 .anchor6{
 	margin-left: 40%;
-	width: 700px;
+	
 }
 .anchor1{
-	background-image: url(../img/bg1.png);
+	background-image: url(../img/bg4.png);
     background-position: 50% 75%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -186,6 +185,14 @@
 }
 .anchor4{
 	background: url(../img/bg2.png);
+    background-position: 50% 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.anchor8 {
+    background: url(../img/bg3.png);
     background-position: 50% 80%;
     background-size: cover;
     background-repeat: no-repeat;
