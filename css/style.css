@@ -100,7 +100,7 @@
 	width: 220px;
 	height: 38px;
 	line-height: 39px;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	margin-top: 40px;
 	color: #fff;
 	background-color: #e9191a;
@@ -116,12 +116,12 @@
 	line-height: 1.2;
 	font-size: 5.4rem;
 	color: #111;
-	padding: 3rem 3rem 0;
+	padding: 3rem 0rem 0rem 3rem;
 	font-weight: 800;
 }
 .section2_description{
 	line-height: 1.6;
-	margin-top: 2.4rem;
+	margin-top: 2.8rem;
 	padding: 0 3rem;
 	color: #111;
 	font-size: 1.8rem;
@@ -215,19 +215,19 @@
 }
 /*动画1*/
 .animation1{
-	animation: copyInfo 1.7s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+	animation: copyInfo 1.0s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) both;
 }
 /*动画2*/
 .animation2{
-	animation: copyInfo 1.7s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+	animation: copyInfo 1.0s 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) both;
 }
 /*动画3*/
 .animation3{
-	animation: copyInfo 1.7s 1.2s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+	animation: copyInfo 1.0s 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) both;
 }
 /*动画3*/
 .animation4{
-	animation: copyInfo 1.7s 1.6s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+	animation: copyInfo 1.0s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) both;
 }
 /*动画步骤*/
 @-webkit-keyframes copyInfo {
