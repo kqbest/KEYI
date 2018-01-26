@@ -49,6 +49,10 @@
 		font-size: 3rem;
 		margin-top: -56px;		
 	}
+	.section4{
+		height: 50%;
+		min-height: 50%;
+	}
 }
 @media screen and (min-width: 320px) and (max-width: 375px){
     .logo{
@@ -100,6 +104,10 @@
 		font-size: 2.8rem;
 		margin-top: -56px;
 	}
+	.section4{
+		height: 50%;
+		min-height: 50%;
+	}
 }
 @media screen and (min-width: 376px) and (max-width: 425px){
     .logo{
@@ -150,6 +158,10 @@
 	.anchor7{
 		font-size: 3.8rem;
 		margin-top: -56px;
+	}
+	.section4{
+		height: 50%;
+		min-height: 50%;
 	}
 }
 @media screen and (min-width: 426px) and (max-width: 768px){

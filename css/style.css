@@ -30,7 +30,7 @@
 }
 .section1_title{
 	line-height: 1.2;
-	font-size: 5.4rem;
+	font-size: 5.0rem;
 	color: #fff;
 	margin-top: 3rem;
 	font-weight: 800;
@@ -114,14 +114,14 @@
 }
 .section2_title{
 	line-height: 1.2;
-	font-size: 5.4rem;
+	font-size: 5.0rem;
 	color: #111;
 	padding: 3rem 0rem 0rem 3rem;
 	font-weight: 800;
 }
 .section2_description{
 	line-height: 1.6;
-	margin-top: 2.8rem;
+	margin-top: 3.2rem;
 	padding: 0 3rem;
 	color: #111;
 	font-size: 1.8rem;
@@ -155,7 +155,7 @@
 	top: 50%;
 	margin-top: -37px;
 	color: #fff;
-	font-size: 5.4rem;
+	font-size: 5.0rem;
 	font-weight: 800;
 	text-align: center;
 }
