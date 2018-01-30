@@ -40,28 +40,8 @@ if (window.innerHeight > 568){
 
 //根据鼠标滚动距离执行动画
 var innerHeight = window.innerHeight;
-var timer = null;
-var c_start = 0;
 $('.main').scroll(function(){
-	//函数节流
-	var c_cur = new Date().getTime();
-    if (c_start == 0) {
-    	c_start = c_cur;
-    }
-    clearTimeout(timer);
-    if(c_cur - c_start >= 400){
-        animate();
-        c_start = c_cur;
-    }else{
-        timer = setTimeout(function(){
-            animate();
-        }, 100);
-    }
-});
-
-//控制动画函数
-function animate(){
-	var top = $('.main').scrollTop();
+	var top = $(this).scrollTop();
 	if(top >= innerHeight/3){
 		$('.anchor1').addClass('animation1');
 		$('.anchor2').addClass('animation1');
@@ -75,7 +55,7 @@ function animate(){
 	if(top >= innerHeight*2+innerHeight/3){
 		$('.anchor7').addClass('animation1');
 	}
-}
+});
 
 //下载点击事件
 $('#download_btn').click(function(){
