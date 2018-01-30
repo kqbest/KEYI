@@ -5,8 +5,8 @@ if (window.innerWidth >= 1024){
 		$('.section1').css('backgroundImage','url(img/bg.jpg)');
 		$('#img1').remove();
 		$('.logo').addClass('animation1');
-		$('.section1_title').addClass('animation2');
-		$('.section1_description').addClass('animation2');
+		$('.section1_title').addClass('animation1');
+		$('.section1_description').addClass('animation1');
 		$('.section1_download').addClass('animation2');
 	});
 }else{
@@ -15,8 +15,8 @@ if (window.innerWidth >= 1024){
 		$('.section1').css('backgroundImage','url(img/bg_wap.jpg)');
 		$('#img2').remove();
 		$('.logo').addClass('animation1');
-		$('.section1_title').addClass('animation2');
-		$('.section1_description').addClass('animation2');
+		$('.section1_title').addClass('animation1');
+		$('.section1_description').addClass('animation1');
 		$('.section1_download').addClass('animation2');
 	});
 }
@@ -44,13 +44,13 @@ $('.main').scroll(function(){
 	var top = $(this).scrollTop();
 	if(top >= innerHeight/3){
 		$('.anchor1').addClass('animation1');
-		$('.anchor2').addClass('animation1');
-		$('.anchor3').addClass('animation2');
+		$('.anchor2').addClass('animation2');
+		$('.anchor3').addClass('animation3');
 	}
 	if(top >= innerHeight+innerHeight/3){
 		$('.anchor4').addClass('animation1');
-		$('.anchor5').addClass('animation1');
-		$('.anchor6').addClass('animation2');
+		$('.anchor5').addClass('animation2');
+		$('.anchor6').addClass('animation3');
 	}
 	if(top >= innerHeight*2+innerHeight/3){
 		$('.anchor7').addClass('animation1');
