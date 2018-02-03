@@ -68,26 +68,26 @@ $('.close').click(function(){
 	$('.popup_box').hide();
 });
 //如果IE浏览器的版本小于10，则直接显示
-//ieVersion();
-//function ieVersion(){
-//  var userAgent = navigator.userAgent;	//取得浏览器的userAgent字符串
-//  var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1;	//判断是否IE<11浏览器
-//  if(isIE){
-//      var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
-//      reIE.test(userAgent);
-//      var fIEVersion = parseFloat(RegExp["$1"]);
-//      if(fIEVersion < 10){
-//      	$('.logo').css('opacity','1');
-//			$('.section1_title').css('opacity','1');
-//			$('.section1_description').css('opacity','1');
-//			$('.section1_download').css('opacity','1');
-//			$('.anchor1').css('opacity','1');
-//			$('.anchor2').css('opacity','1');
-//			$('.anchor3').css('opacity','1');
-//			$('.anchor4').css('opacity','1');
-//			$('.anchor5').css('opacity','1');
-//			$('.anchor6').css('opacity','1');
-//			$('.anchor7').css('opacity','1');
-//      } 
-//  }
-//}
+ieVersion();
+function ieVersion(){
+    var userAgent = navigator.userAgent;	//取得浏览器的userAgent字符串
+    var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1;	//判断是否IE<11浏览器
+    if(isIE){
+        var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+        console.log(reIE.test(userAgent));
+        var fIEVersion = parseFloat(RegExp["$1"]);
+        if(fIEVersion < 10){
+        	$('.logo').css('opacity','1');
+			$('.section1_title').css('opacity','1');
+			$('.section1_description').css('opacity','1');
+			$('.section1_download').css('opacity','1');
+			$('.anchor1').css('opacity','1');
+			$('.anchor2').css('opacity','1');
+			$('.anchor3').css('opacity','1');
+			$('.anchor4').css('opacity','1');
+			$('.anchor5').css('opacity','1');
+			$('.anchor6').css('opacity','1');
+			$('.anchor7').css('opacity','1');
+        } 
+    }
+}
